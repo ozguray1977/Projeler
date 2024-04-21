@@ -1,7 +1,8 @@
 #GÜZEL BİR RESİM ÇİZİMİ
 
 from turtle import *
-import time
+
+title("GÜZEL BİR RESİM")
 colormode(255)
 color(0,0,0)
 pensize(5)
@@ -145,13 +146,13 @@ def gunes(cap):
 
 def agac1():
     penup()
-    goto(-550, 50)
+    goto(-700, 0)
     pendown()
-    pensize(5)
+    pensize(20)
     pencolor("green")
     left(90)
     speed("fastest")
-    dal_agac1(25, 7)
+    dal_agac1(60, 7)
 
 def dal_agac1(uzunluk, seviye):
     if seviye == 0:
@@ -166,12 +167,12 @@ def dal_agac1(uzunluk, seviye):
 
 def agac2():
     penup()
-    goto(-470, 50)
+    goto(-540, 0)
     pendown()
-    pensize(5)
+    pensize(20)
     pencolor("green")
     speed("fastest")
-    dal_agac2(25, 7)
+    dal_agac2(60, 7)
 
 def dal_agac2(uzunluk, seviye):
     if seviye == 0:
@@ -186,12 +187,12 @@ def dal_agac2(uzunluk, seviye):
 
 def agac3():
     penup()
-    goto(-390, 50)
+    goto(-380, 0)
     pendown()
-    pensize(5)
+    pensize(20)
     pencolor("green")
     speed("fastest")
-    dal_agac3(25, 7)
+    dal_agac3(60, 7)
 
 def dal_agac3(uzunluk, seviye):
     if seviye == 0:
@@ -206,12 +207,12 @@ def dal_agac3(uzunluk, seviye):
 
 def agac4():
     penup()
-    goto(-510, 25)
+    goto(-620, -120)
     pendown()
-    pensize(5)
+    pensize(20)
     pencolor("green")
     speed("fastest")
-    dal_agac4(25, 7)
+    dal_agac4(60, 7)
 
 def dal_agac4(uzunluk, seviye):
     if seviye == 0:
@@ -226,12 +227,12 @@ def dal_agac4(uzunluk, seviye):
 
 def agac5():
     penup()
-    goto(-430, 25)
+    goto(-460, -120)
     pendown()
-    pensize(5)
+    pensize(20)
     pencolor("green")
     speed("fastest")
-    dal_agac5(25, 7)
+    dal_agac5(60, 7)
 
 def dal_agac5(uzunluk, seviye):
     if seviye == 0:
